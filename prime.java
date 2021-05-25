@@ -5,19 +5,19 @@ public class prime
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int cout=0;
+        int count=0;
         for(int i=1;i<=13;i++)
         {
             if(n%i==0)
             {
-              cout=cout+1;
+              count=count+1;
             }
         }
-        if(cout>2)
+        if(count>2)
         {
             System.out.println("not prime");
         }
-        else if(cout==2)
+        else if(count==2)
         {
             System.out.println("prime");
         }
